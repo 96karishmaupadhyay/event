@@ -1,0 +1,43 @@
+.nav-top{
+    text-align: center;
+    background-color: var(--color-primary);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 8px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 10px 40px; 
+  background-color: var(--color-primary-light);
+}
+
+.nav-right{
+    display: flex;
+    gap: 16px;
+}
+.logo{
+    height: 40px;
+    width: 80px;
+}
+.nav-list{
+display: flex;
+list-style: none;
+gap: 16px;
+align-items: center;
+font-size: 16px;
+
+}
+.my-booking-btn{
+   
+    font-size: 16px;
+    padding: 8px 16px;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
