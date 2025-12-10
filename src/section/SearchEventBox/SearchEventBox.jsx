@@ -72,7 +72,7 @@ const SearchEventBox = () => {
         </button>
       </div>
 
-      <IconCardSection />
+      {/* <IconCardSection /> */}
     </div>
   );
 };

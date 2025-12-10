@@ -13,7 +13,7 @@ const ImageSlider = () => {
   const swiperRef = useRef(null);
 
   return (
-    <div className="container image-slider-section">
+    <div className="container image-slider-section pt-4">
 
       <Swiper
         onSwiper={(swiper) => (swiperRef.current = swiper)}
@@ -22,7 +22,7 @@ const ImageSlider = () => {
         slidesPerGroup={1} 
         loop={false}      
         onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
-        style={{ borderRadius: "12px", overflow: "hidden" }}
+        style={{ borderRadius: "12px", overflow: "hidden" ,paddingTop:"40px"}}
       >
         {sliderImages.map((image, index) => (
           <SwiperSlide key={index}>

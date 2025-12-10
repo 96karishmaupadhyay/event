@@ -34,7 +34,10 @@ const HeroSlider = () => {
         </div>
       </div>
       <SearchEventBox/>
-      {/* <IconCardSection/> */}
+      <div className=" bg-white">
+<IconCardSection/>
+      </div>
+      
     </div>
   );
 };
